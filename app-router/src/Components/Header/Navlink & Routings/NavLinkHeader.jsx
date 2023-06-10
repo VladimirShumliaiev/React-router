@@ -7,14 +7,14 @@ const NavLinkHeader = () => {
     return (
         <div>
             <span>
-                <NavLink className={isActive} to={'/home'}>Home </NavLink>
+                <NavLink className={isActive} to={'/home'}><h3>Home</h3> </NavLink>
             </span>
             <span>
-                <NavLink className={isActive} to={'/about'}> About </NavLink>
+                <NavLink className={isActive} to={'/about'}><h3>About</h3> </NavLink>
             </span>
            <span>
 
-               <NavLink className={isActive} to={'/notFound'}> Not Found</NavLink>
+               <NavLink className={isActive} to={'/notFound'}><h3>Not Found</h3> </NavLink>
            </span>
 
         </div>
