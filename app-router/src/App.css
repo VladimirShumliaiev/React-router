@@ -1,0 +1,41 @@
+.App {
+    display: grid;
+    grid-template-areas:
+          'header'
+          'maine'
+          'footer';
+    grid-template-columns: 1200px;
+    grid-template-rows: 60px;
+    justify-content: center;
+
+}
+
+.Header {
+    display: grid;
+    grid-area: header;
+    background: #f8f8f8;
+    text-align: center;
+    padding: 10px 5px 5px 5px;
+}
+
+.Header a{
+    text-decoration: none;
+}
+
+a.activeHeader {
+    color: #d72020;
+}
+
+.Maine {
+    display: grid;
+    grid-area: maine;
+    background: blue;
+    text-align: center;
+}
+
+
+.Footer {
+    display: grid;
+    grid-area: footer;
+    background: yellow;
+}
