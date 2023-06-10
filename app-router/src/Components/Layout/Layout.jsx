@@ -5,9 +5,9 @@ import Header from "../Header/Header";
 const Layout = () => {
     return (
         <div className={'App'}>
-            <div className={'Header'}>
+            <span className={'Header'}>
                 <Header/>
-            </div>
+            </span>
             <div className={'Maine'}>
                 <Outlet/>
             </div>

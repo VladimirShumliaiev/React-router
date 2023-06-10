@@ -1,12 +1,13 @@
 .App {
     display: grid;
     grid-template-areas:
-          'header'
-          'maine'
-          'footer';
-    grid-template-columns: 1200px;
-    /*grid-template-rows: 60px;*/
-    justify-content: center;
+          'header header'
+          'maine maine'
+          'footer footer';
+    grid-template-columns: 70%;
+    grid-template-rows: 80px 1fr;
+    margin: 5px auto;
+    /*justify-content: center;*/
 
 }
 
