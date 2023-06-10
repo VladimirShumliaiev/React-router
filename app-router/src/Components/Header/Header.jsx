@@ -1,5 +1,5 @@
 import React from 'react';
-import NavLinkHeader from "./Navlink & Routings/NavLinkHeader";
+import NavLinkHeader from "../Navlink & Routings/NavLinkHeader";
 
 const Header = () => {
     return (
