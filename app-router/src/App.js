@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import LayoutCell from "./Components/Layout/LayoutCell";
+import LayoutCell from "./Components/Navlink & Routings/LayoutCell";
 
 function App() {
   return (

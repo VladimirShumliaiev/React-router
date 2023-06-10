@@ -7,7 +7,7 @@ const NavLinkHeader = () => {
     return (
         <>
             <h1>
-                <NavLink className={isActive} to={'/home'}>Home </NavLink>
+                <NavLink className={isActive} to={'/'}>Home </NavLink>
                 <NavLink className={isActive} to={'/about'}>- About -</NavLink>
                 <NavLink className={isActive} to={'/notFound'}> Not Found</NavLink>
             </h1>
