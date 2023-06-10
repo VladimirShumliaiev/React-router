@@ -8,13 +8,12 @@
     grid-template-rows: 80px 1fr;
     margin: 5px auto;
     /*justify-content: center;*/
-
 }
 
 .Header {
     display: grid;
     grid-area: header;
-    background: #f8f8f8;
+    background: #cebe08;
     text-align: center;
     padding: 10px 5px 5px 5px;
 }
@@ -24,7 +23,7 @@
 }
 
 a.activeHeader {
-    color: #d72020;
+    color: #fdfcfc;
 }
 
 .Maine {
@@ -33,7 +32,6 @@ a.activeHeader {
     background: blue;
     text-align: center;
 }
-
 
 .Footer {
     display: grid;

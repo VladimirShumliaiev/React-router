@@ -6,16 +6,11 @@ const NavLinkHeader = () => {
     const isActive = ({isActive}) => isActive ? 'activeHeader' : ''
     return (
         <>
-            <span>
-                <NavLink className={isActive} to={'/home'}> Home </NavLink>
-            </span>
-            <span>
-                <NavLink className={isActive} to={'/about'}> About </NavLink>
-            </span>
-           <span>
-
-               <NavLink className={isActive} to={'/notFound'}> Not Found </NavLink>
-           </span>
+            <h1>
+                <NavLink className={isActive} to={'/home'}>Home </NavLink>
+                <NavLink className={isActive} to={'/about'}>- About -</NavLink>
+                <NavLink className={isActive} to={'/notFound'}> Not Found</NavLink>
+            </h1>
         </>
     );
 };
