@@ -5,19 +5,19 @@ const Home = () => {
         <div>
             Home
             <div>
-                Home Home
+                Home Home Home
             </div>
             <div>
-                Home Home
+                Home Home Home
             </div>
             <div>
-                Home Home
+                Home Home Home
             </div>
             <div>
-                Home Home
+                Home Home Home
             </div>
             <div>
-                Home Home
+                Home Home Home
             </div>
         </div>
     );
